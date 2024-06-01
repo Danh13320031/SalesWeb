@@ -1,0 +1,25 @@
+@import url(../../App.css);
+
+.footer {
+  width: 100%;
+  padding: 80px 0px;
+  background-color: var(--secondary-color);
+  color: white;
+  & .brand {
+    & .brand__link {
+      & .brand__logo {
+      }
+    }
+    & .brand__desc {
+    }
+  }
+
+  & .address {
+  }
+
+  & .support {
+  }
+
+  & .sponsor {
+  }
+}

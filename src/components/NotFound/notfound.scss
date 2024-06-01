@@ -1,0 +1,39 @@
+@import url(../../App.css);
+
+.notfound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  & .notfound__title {
+    position: relative;
+    color: var(--thrid-color);
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 205px;
+    filter: drop-shadow(0px 0px 5px var(--thrid-color));
+
+    &::after {
+      position: absolute;
+      top: 350px;
+      left: 50%;
+      transform: translateX(-50%);
+      content: '';
+      width: 100%;
+      height: 20px;
+
+      background-color: var(--thrid-color);
+      opacity: 15%;
+      border-radius: 50%;
+      filter: blur(15px);
+    }
+  }
+
+  & .notfound__desc {
+    font-size: 20px;
+    opacity: 70%;
+  }
+}

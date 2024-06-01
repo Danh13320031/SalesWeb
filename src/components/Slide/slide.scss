@@ -1,0 +1,21 @@
+@import url(../../App.css);
+
+.slide {
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  & .row {
+    --bs-gutter-x: 5.5rem;
+    & .carousel {
+      background-color: var(--primary-color);
+      & .slide {
+        width: 100%;
+      }
+    }
+    & .image {
+      background-image: url(https://cdn.shopify.com/s/files/1/0278/9723/3501/files/Maurice-Lacroix-Aikon-Automatic-Black-PVD-2.jpg?v=1676579363);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}

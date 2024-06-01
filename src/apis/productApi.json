@@ -1,0 +1,7 @@
+{
+  "product": [
+    { "id": 1, "title": "Iphone PRO MAX", "desc": "" },
+    { "id": 2, "title": "Iphone XS", "desc": "" },
+    { "id": 3, "title": "Samsung Galaxy A22", "desc": "" }
+  ]
+}
